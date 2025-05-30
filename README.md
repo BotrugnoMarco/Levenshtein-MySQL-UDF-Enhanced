@@ -61,7 +61,7 @@ The Levenshtein distance measures the minimum number of operations (insertions, 
 ### Syntax
 
 ```sql
-SELECT levenshtein(str1, str2 [, ignore_case]);
+SELECT levenshtein(str1, str2, [ignore_case]);
 ```
 
 - `str1`, `str2`: strings to compare.
